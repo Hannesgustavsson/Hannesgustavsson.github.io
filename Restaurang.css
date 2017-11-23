@@ -204,7 +204,7 @@ footer {
   background-color:#BBCFD4;
   display:inline-block;
   text-align:left;
-font-family: 'Spectral SC', serif;
+  font-family: 'Spectral SC', serif;
   height:10px;
   margin-top: 20px;
   margin-left: 0px;
@@ -340,7 +340,7 @@ font-family: 'Spectral SC', serif;
     width:auto;
     text-align:center;
     font-family: cursive;
-    height:10px;
+    height: 10px;
     margin-top: 110px;
     margin-left: 50px;
     margin-right: 50px;
@@ -417,6 +417,7 @@ P {
   margin-left: 15px;
   padding-top: 5px;
   text-align: center;
+  font-weight: lighter;
 }
 
 @media screen and (max-width: 1287px) {
@@ -425,14 +426,20 @@ P {
     width: 100%;
     background-color:#BBCFD4;
     text-align:center;
-    font-family: cursive;
+    font-family: "Spectral SC", serif;
     height:10px;
     margin-top: 20px;
     margin-left: 0px;
 }
 
-  .p5{
-    text-align: center;
+.p5 {
+  font-size: 24px;
+  font-family: 'Spectral SC', serif;
+  margin-top: 0px;
+  margin-left: 15px;
+  padding-top: 5px;
+  font-weight: bold;
+  text-align: center;
 }
 }
 
@@ -453,7 +460,7 @@ P {
     width: 100%;
     background-color:#BBCFD4;
     text-align:center;
-  font-family: 'Spectral SC', serif;
+    font-family: 'Spectral SC', serif;
     height:10px;
     margin-top: 20px;
     margin-left: 0px;
@@ -506,14 +513,14 @@ width:100%;
       flex-shrink: 1;
       flex-grow: 1;
       flex-basis: auto;
+      color: white;
     }
 
     .p4 {
-
+      font-weight: lighter;
       margin-top: 5px;
       margin-left: auto;
       padding-top: 5px;
-      font-weight: regular;
       text-align: center;
       font-size: 25px;
     }
@@ -539,8 +546,8 @@ width:100%;
     }
 
     #Rubrik {
-        background-color:#BBCFD4
-        width:auto;
+        background-color:#BBCFD4;
+        width: auto;
         text-align:center;
         font-family: cursive;
         height:10px;
